@@ -1,5 +1,5 @@
 {
-  "enableUIDisplayConfiguration": false,
+  "enableUIDisplayConfiguration": true,
   "uiDisplayConfigurations": {
 	"loanAccount": {
 	  "isHiddenField": {
@@ -27,7 +27,11 @@
 		"collateralSection": true
 	  },
 	  "isReadOnlyField": {
-		"loanTermFrequencyType": true
+		"loanTermFrequencyType": true,
+		"interestRatePerPeriod": true
+	  },
+	  "isPrepopulateFieldHidden":{
+		"principalType": true
 	  }
 	}
   }
